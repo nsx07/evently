@@ -1,12 +1,9 @@
+using ErrorOr;
 using Evently.Application.Reminders.Commands.SetReminder;
 using Evently.Application.Reminders.Queries.GetReminder;
 using Evently.Application.Reminders.Queries.ListReminders;
 using Evently.Domain.Reminders;
-
-using ErrorOr;
-
 using FluentAssertions;
-
 using MediatR;
 
 namespace TestCommon.Reminders;

@@ -1,9 +1,9 @@
+using ErrorOr;
+
 using Evently.Domain.Common;
 using Evently.Domain.Reminders;
 using Evently.Domain.Subscriptions;
 using Evently.Domain.Users.Events;
-
-using ErrorOr;
 
 using Throw;
 

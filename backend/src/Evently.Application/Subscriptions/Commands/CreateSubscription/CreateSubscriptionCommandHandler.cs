@@ -1,10 +1,8 @@
+using ErrorOr;
 using Evently.Application.Common.Interfaces;
 using Evently.Application.Subscriptions.Common;
 using Evently.Domain.Subscriptions;
 using Evently.Domain.Users;
-
-using ErrorOr;
-
 using MediatR;
 
 namespace Evently.Application.Subscriptions.Commands.CreateSubscription;

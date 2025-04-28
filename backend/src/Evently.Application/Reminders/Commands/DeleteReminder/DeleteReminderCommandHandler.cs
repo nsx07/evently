@@ -1,6 +1,6 @@
-using Evently.Application.Common.Interfaces;
-
 using ErrorOr;
+
+using Evently.Application.Common.Interfaces;
 
 using MediatR;
 

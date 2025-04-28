@@ -1,11 +1,8 @@
+using ErrorOr;
 using Evently.Application.Subscriptions.Commands.CreateSubscription;
 using Evently.Application.Subscriptions.Common;
 using Evently.Application.Subscriptions.Queries.GetSubscription;
-
-using ErrorOr;
-
 using FluentAssertions;
-
 using MediatR;
 
 namespace TestCommon.Subscriptions;

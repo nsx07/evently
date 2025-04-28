@@ -1,8 +1,6 @@
+using ErrorOr;
 using Evently.Application.Common.Interfaces;
 using Evently.Domain.Reminders;
-
-using ErrorOr;
-
 using MediatR;
 
 namespace Evently.Application.Reminders.Queries.ListReminders;

@@ -1,7 +1,5 @@
-using Evently.Application.Common.Interfaces;
-
 using ErrorOr;
-
+using Evently.Application.Common.Interfaces;
 using MediatR;
 
 namespace Evently.Application.Reminders.Commands.DismissReminder;

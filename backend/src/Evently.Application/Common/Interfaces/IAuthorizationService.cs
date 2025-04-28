@@ -1,6 +1,6 @@
-using Evently.Application.Common.Security.Request;
-
 using ErrorOr;
+
+using Evently.Application.Common.Security.Request;
 
 namespace Evently.Application.Common.Interfaces;
 

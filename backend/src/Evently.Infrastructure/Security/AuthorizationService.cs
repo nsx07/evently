@@ -1,9 +1,8 @@
+using ErrorOr;
 using Evently.Application.Common.Interfaces;
 using Evently.Application.Common.Security.Request;
 using Evently.Infrastructure.Security.CurrentUserProvider;
 using Evently.Infrastructure.Security.PolicyEnforcer;
-
-using ErrorOr;
 
 namespace Evently.Infrastructure.Security;
 

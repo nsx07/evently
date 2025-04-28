@@ -1,7 +1,6 @@
+using ErrorOr;
 using Evently.Application.Common.Security.Request;
 using Evently.Application.Common.Security.Roles;
-
-using ErrorOr;
 
 namespace Evently.Application.Subscriptions.Commands.CancelSubscription;
 

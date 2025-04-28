@@ -1,9 +1,9 @@
 using System.Reflection;
 
+using ErrorOr;
+
 using Evently.Application.Common.Interfaces;
 using Evently.Application.Common.Security.Request;
-
-using ErrorOr;
 
 using MediatR;
 

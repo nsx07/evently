@@ -1,8 +1,8 @@
+using ErrorOr;
+
 using Evently.Application.Common.Security.Permissions;
 using Evently.Application.Common.Security.Policies;
 using Evently.Application.Common.Security.Request;
-
-using ErrorOr;
 
 namespace Evently.Application.Reminders.Commands.DeleteReminder;
 

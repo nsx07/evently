@@ -1,8 +1,6 @@
+using ErrorOr;
 using Evently.Application.Authentication.Queries.Login;
 using Evently.Application.Common.Interfaces;
-
-using ErrorOr;
-
 using MediatR;
 
 namespace Evently.Application.Tokens.Queries.Generate;

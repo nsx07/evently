@@ -1,6 +1,6 @@
-using Evently.Domain.Common;
-
 using ErrorOr;
+
+using Evently.Domain.Common;
 
 namespace Evently.Domain.Reminders;
 
