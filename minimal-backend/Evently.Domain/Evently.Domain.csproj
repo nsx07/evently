@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Event\Dtos\" />
+    <Folder Include="Ticket\Dtos\" />
+    <Folder Include="Ticket\Interfaces\" />
+    <Folder Include="User\Dtos\" />
+  </ItemGroup>
+
 </Project>

@@ -7,15 +7,27 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 builder.Services.Setup();
+builder.Services.AddCors(cors => cors.AddPolicy("AllowAll", builder =>
+{
+    builder.AllowAnyOrigin()
+           .AllowAnyMethod()
+           .AllowAnyHeader();
+}));
 
 var app = builder.Build();
 
+app.MapOpenApi();
+app.UseSwaggerUI(options =>
+{
+    options.SwaggerEndpoint("/openapi/v1.json", "v1");
+});
+
+app.UseCors("AllowAll");
+
 app.MapControllers();
 
-app.MapOpenApi();
-
-app.UseHttpsRedirection();
-
-app.UseRouting();
-
 app.Run();
+
+var map = new Dictionary<string, int>();
+
+map.Add("a", 1);

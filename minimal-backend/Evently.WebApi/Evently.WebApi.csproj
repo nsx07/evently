@@ -8,11 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="8.1.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Evently.Domain\Evently.Domain.csproj" />
     <ProjectReference Include="..\Evently.Infra\Evently.Infra.csproj" />
+    <ProjectReference Include="..\Evently.Shared\Evently.Shared.csproj" />
   </ItemGroup>
 
 </Project>

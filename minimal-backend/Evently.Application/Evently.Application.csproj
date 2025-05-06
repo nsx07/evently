@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Evently.Domain\Evently.Domain.csproj" />
+    <ProjectReference Include="..\Evently.Shared\Evently.Shared.csproj" />
   </ItemGroup>
 
 </Project>

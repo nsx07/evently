@@ -24,7 +24,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Evently.Application\Evently.Application.csproj" />
     <ProjectReference Include="..\Evently.Domain\Evently.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Evently.db">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>
